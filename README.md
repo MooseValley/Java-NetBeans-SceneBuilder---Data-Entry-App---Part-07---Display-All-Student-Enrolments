@@ -1,8 +1,8 @@
 # Java, NetBeans, SceneBuilder - Data Entry App
-# Part 07 - Display All Student Enrolments
+## Part 07 - Display All Student Enrolments
 
 Here is the Java, NetBeans, SceneBuilder source code for
-my video tutorial:
+**Part 07** of my video tutorial series:
 * YouTube: https://youtu.be/967rpvwNc1U
 * LBRY / Odysee: TBA
 
