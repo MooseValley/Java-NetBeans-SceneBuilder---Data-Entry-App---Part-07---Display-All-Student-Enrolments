@@ -1,0 +1,14 @@
+        // Create some Students:
+        StudentAddFXMLController.studentsArrayList.add (new Student ("Moose",   "112233", "Moose_Software@yahoo.com.au") );
+        StudentAddFXMLController.studentsArrayList.add (new Student ("Frankie", "998877", "Frankie@hotmail.com") );
+        StudentAddFXMLController.studentsArrayList.add (new Student ("Bella",   "222233", "Bella@gmail.com") );
+
+        // Create some Courses:
+        CourseAddFXMLController.coursesArrayList.add (new Course("COIT11134", "Object Oriented Programming") );
+        CourseAddFXMLController.coursesArrayList.add (new Course("COIT11222", "Programming Fundamentals") );
+        CourseAddFXMLController.coursesArrayList.add (new Course("COIT20256", "Data Structures and Algorithms") );
+
+        // Create 1 Enrolment:
+        EnrolmentAddFXMLController.enrolmentsArrayList.add
+            (new Enrolment (StudentAddFXMLController.studentsArrayList.get(0),
+                            CourseAddFXMLController.coursesArrayList.get(2) ) );
